@@ -7,6 +7,7 @@ name: 配置模块
 Config模块用来读写ini配置文件。
 
 - 初始化配置
+
 ```golang
 import(
 	"github.com/elago/ela"
