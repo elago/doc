@@ -8,6 +8,6 @@ name: 错误控制器
 
 ### 错误控制路由定义
 ```golang
-ela.Router("@500", controller.Error500)
-ela.Router("@404", controller.Error404)
+ela.NotFoundError(controller.Error404)
+ela.InternalError(controller.Error500)
 ```
